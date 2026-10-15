@@ -1,0 +1,12 @@
+{
+  "image_id": "sha256:<redacted>",
+  "repo_digests": [
+    "gen5w-emulator@sha256:<redacted>"
+  ],
+  "created": "2026-10-13T21:49:37.639062184Z",
+  "packages": "python3\t3.12.3-0ubuntu2.1\nqemu-system-arm\t1:8.2.2+ds-0ubuntu1.18\nqemu-utils\t1:8.2.2+ds-0ubuntu1.18\n",
+  "final_build_image_id": "sha256:<redacted>",
+  "final_build_repo_digests": [
+    "gen5w-emulator@sha256:<redacted>"
+  ]
+}

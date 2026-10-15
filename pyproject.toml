@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gen5w-emulator"
+version = "0.1.0"
+description = "Concurrent offline Gen5W firmware emulators"
+requires-python = ">=3.10"
+
+[project.scripts]
+emuctl = "emulator.cli:main"
+
+[tool.setuptools]
+packages = ["emulator"]

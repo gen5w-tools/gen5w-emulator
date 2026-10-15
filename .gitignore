@@ -1,0 +1,6 @@
+legacy
+images
+state
+__pycache__/
+*.egg-info/
+.venv/

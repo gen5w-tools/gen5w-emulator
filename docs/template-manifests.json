@@ -1,0 +1,50 @@
+{
+  "V011": {
+    "name": "V011",
+    "firmware": "ECOHMC.CAN.S5W_M.V011.007",
+    "imported": "2026-10-13T21:42:29Z",
+    "files": {
+      "disk.raw": {
+        "sha256": "aed81e8b8bc20be04a2984314c100dbbcebef276d8c93c45c9260e90d1a19eb9",
+        "bytes": 3048210432,
+        "source": "legacy/run-v011/emmc.img"
+      },
+      "zImage": {
+        "sha256": "71d5d17372e3546b213890231977349b39544981dc1bebbfe117322470f4d198",
+        "bytes": 6858952,
+        "source": "legacy/run-v011/zImage"
+      },
+      "ramdisk.cpio.gz": {
+        "sha256": "8879e3e2485717eaa994ba9f3f9bbb7995c2a12078b352a30866b1fc06346cb6",
+        "bytes": 3150052,
+        "source": "legacy/run-v011/ramdisk.cpio.gz"
+      }
+    },
+    "profile": "emmc",
+    "source_note": "Prepared third-party offline QEMU eMMC profile; guest state as captured. See legacy provenance."
+  },
+  "V015": {
+    "name": "V015",
+    "firmware": "ECOHMC.CAN.S5W_M.V015.011",
+    "imported": "2026-10-13T21:43:15Z",
+    "files": {
+      "disk.raw": {
+        "sha256": "11c03e769ac48119de746288068d17eefcd734941e0b57e430ac82b95890eda1",
+        "bytes": 3048210432,
+        "source": "legacy/run/emmc.img"
+      },
+      "zImage": {
+        "sha256": "71d5d17372e3546b213890231977349b39544981dc1bebbfe117322470f4d198",
+        "bytes": 6858952,
+        "source": "legacy/run/zImage"
+      },
+      "ramdisk.cpio.gz": {
+        "sha256": "cf9986173d80f9fd3267a8efa57b84d5a0d978967055af9076a8b1936af2565d",
+        "bytes": 3191783,
+        "source": "legacy/run/ramdisk.cpio.gz"
+      }
+    },
+    "profile": "emmc",
+    "source_note": "Prepared third-party offline QEMU eMMC profile; guest state as captured. See legacy provenance."
+  }
+}
